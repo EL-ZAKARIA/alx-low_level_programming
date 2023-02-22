@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * times_table - prints
+ * Return: empty output
  */
 
 void times_table(void)
