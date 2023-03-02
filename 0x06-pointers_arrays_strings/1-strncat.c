@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * strncat - joins two strings together
@@ -7,11 +7,9 @@ include "main.h"
  * @n: The length of int
  * Return: identifier for the final string dest
  */
-
 char *_strncat(char *dest, char *src, int n)
 {
-	int i;
-	int j;
+	int i, j;
 
 	for (i = 0; dest[i] != '\0'; i++)
 	{
@@ -21,6 +19,6 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		dest[i + j] = src[j];
 	}
-	dest[i = j] = '\0';
+	dest[i + j] = '\0';
 	return (dest);
 }
